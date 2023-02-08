@@ -20,7 +20,6 @@ const input = [
 
 
 
-
   return (
     
     //console.log(totalMarks(students))
