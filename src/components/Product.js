@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 export default class Product extends Component {
     prod; 
@@ -25,6 +26,10 @@ export default class Product extends Component {
                 <Card.Text>
                     {this.prod.price} DT
                 </Card.Text>
+                <Card.Text>
+                    {this.prod.like}
+                </Card.Text>
+                <Button variant="primary">Like</Button>{' '}
             </Card.Body>
             </Card>
         );
